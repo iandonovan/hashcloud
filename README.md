@@ -4,6 +4,7 @@
 Have you ever looked at a trending topic on Twitter and thought, "What in the world are those crazy teens talking about now?" Well, with Hashcloud, you can search Twitter for that hashtag and generate a word map to chart the most popular words associated with that tag.
 
 ### Installation
+0. Install the twitter gem, if you don't have it yet, with `gem install twitter`.
 1. Clone this repo.
 2. `cp credentials_example.yml credentials.yml`
 3. Edit `credentials.yml` to include your actual Twitter API credentials. You'll need to register with Twitter Developer to generate these.
